@@ -17,3 +17,12 @@ server:
 spring:
   application:
     name: servicio-zuul
+    
+zuul:
+  #ignoredServices: '*'
+  routes:
+    personas:
+      path: /servicio-personas/**
+      serviceId: servicio-personas
+      stripPrefix: false
+      #url: http://localhost:2222/greeting/
