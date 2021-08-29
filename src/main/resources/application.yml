@@ -42,4 +42,4 @@ zuul:
       path: /prueba-microservice/**
       serviceId: prueba-microservice
       stripPrefix: false
-      #url: http://localhost:2222/greeting/
+      url: http://147.182.214.195:8881/
