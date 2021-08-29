@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>mx.uacm.edu.incidencias</groupId>
-	<artifactId>springboot-zuul</artifactId>
+	<artifactId>zuul</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-zuul</name>
 	<description>Demo project for Spring Boot</description>
