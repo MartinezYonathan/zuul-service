@@ -18,16 +18,6 @@ server:
 spring:
   application:
     name: servicio-zuul
-    
-zuul:
-  ignored-headers:Access-Control-Allow-Credentials, Access-Control-Allow-Origin
-  host:
-    socket-timeout-millis:40000
-    connect-timeout-millis:40000
-
-ribbon:
-  ConnectTimeout:40000
-  ReadTimeout:40000
 
 hystrix:
   command:
