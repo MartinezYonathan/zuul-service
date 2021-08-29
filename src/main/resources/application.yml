@@ -10,7 +10,8 @@ management:
   endpoints:
     web:
       exposure:
-        include: info, health, routes
+        include: 'routes,filters'
+
 server:
   port: 8070
           
