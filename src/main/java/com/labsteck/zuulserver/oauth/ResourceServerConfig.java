@@ -19,8 +19,8 @@ import org.springframework.web.filter.CorsFilter;
  * @author Manuel Perez Garrido
  * @since 16/09/20
  */
-@Configuration
-@EnableResourceServer
+//@Configuration
+//@EnableResourceServer
 public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 
     @Override
