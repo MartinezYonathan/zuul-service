@@ -1,10 +1,10 @@
-package com.labsteck.zuulserver;
+package com.coderulagam.zuul;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ZuulServerApplicationTests {
+class SpringbootZuulApplicationTests {
 
 	@Test
 	void contextLoads() {

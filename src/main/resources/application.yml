@@ -1,0 +1,19 @@
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://147.182.214.195:8799/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, routes
+server:
+  port: 8070
+          
+spring:
+  application:
+    name: servicio-zuul
