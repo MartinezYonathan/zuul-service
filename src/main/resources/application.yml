@@ -11,35 +11,9 @@ management:
     web:
       exposure:
         include: info, health, routes
-
 server:
   port: 8070
           
 spring:
   application:
     name: servicio-zuul
-
-hystrix:
-    command:
-        default:
-            execution:
-                isolation:
-                    thread:
-                        timeoutInMilliseconds: 60000
-    
-zuul:
-  host:
-    connect-timeout-millis: 10000
-    socket-timeout-millis: 60000
-  #ignoredServices: '*'
-  routes:
-    servicio-personas:
-      path: /servicio-personas/**
-      serviceId: servicio-personas
-      stripPrefix: false
-      #url: http://localhost:2222/greeting/
-    prueba-microservice:
-      path: /prueba-microservice/**
-      serviceId: prueba-microservice
-      stripPrefix: false
-      url: http://147.182.214.195:8881/
