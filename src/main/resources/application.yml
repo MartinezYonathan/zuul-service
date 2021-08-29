@@ -26,3 +26,8 @@ zuul:
       serviceId: servicio-personas
       stripPrefix: false
       #url: http://localhost:2222/greeting/
+    prueba:
+      path: /prueba-microservice/**
+      serviceId: prueba-microservice
+      stripPrefix: false
+      #url: http://localhost:2222/greeting/
